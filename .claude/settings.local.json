@@ -7,7 +7,15 @@
       "WebFetch(domain:www.weather.com.cn)",
       "mcp__weather__get_weather",
       "Bash(git remote:*)",
-      "Bash(git add:*)"
+      "Bash(git add:*)",
+      "Bash(git commit:*)",
+      "Bash(git branch:*)",
+      "Bash(git push:*)",
+      "Bash(curl:*)",
+      "Bash(gh issue:*)",
+      "Bash(export GH_TOKEN=*)",
+      "Bash(gh pr:*)",
+      "Bash(git reset:*)"
     ]
   },
   "enableAllProjectMcpServers": true,
