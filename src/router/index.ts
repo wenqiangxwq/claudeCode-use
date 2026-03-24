@@ -5,7 +5,7 @@ import { setupRouterGuard } from './guard'
 const routes: RouteRecordRaw[] = [...staticRoutes]
 
 const router = createRouter({
-  history: createWebHistory(import.meta.env.VITE_APP_BASE_API),
+  history: createWebHistory(),
   routes,
   scrollBehavior: () => ({ left: 0, top: 0 })
 })
