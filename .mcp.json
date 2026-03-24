@@ -1,0 +1,19 @@
+{
+  "mcpServers": {
+    "weather": {
+      "type": "stdio",
+      "command": "node",
+      "args": [
+        "/Users/qiangadmin/frontend-pc/weather-mcp/index.js"
+      ]
+    },
+    "test_server": {
+      "type": "stdio",
+      "command": "node -v",
+      "args": [
+     
+      ],
+      "env": {}
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(node index.js)",
+      "Bash(node:*)",
+      "WebSearch",
+      "WebFetch(domain:www.weather.com.cn)",
+      "mcp__weather__get_weather",
+      "Bash(git remote:*)",
+      "Bash(git add:*)"
+    ]
+  },
+  "enableAllProjectMcpServers": true,
+  "enabledMcpjsonServers": [
+    "weather"
+  ]
+}
